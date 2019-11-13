@@ -23,3 +23,23 @@ j = True
 print(type(j))
 k = b"Hello"
 print(type(k))
+l = bytearray(5)
+print(type(l))
+m = memoryview(bytes(5))
+print(type(m))
+
+# Setting a specific data type
+x = str("Hello World")
+x = int(20)
+x = float(20.5)
+x = complex(1j)	
+x = list(("apple", "banana", "cherry"))
+x = tuple(("apple", "banana", "cherry"))	
+x = range(6)
+x = dict(name="John", age=36)
+x = set(("apple", "banana", "cherry"))	
+x = frozenset(("apple", "banana", "cherry"))	
+x = bool(5)
+x = bytes(5)	
+x = bytearray(5)	
+x = memoryview(bytes(5))

@@ -1,1 +1,16 @@
-#comment
+# Single-line comments
+
+# Multi-line comments
+
+# This 
+# Is
+# A
+# Comment
+
+"""
+This is also
+multi-line comment,
+as Python tends to ignore,
+qoutes that aren't,
+assigned to any varibales.
+"""

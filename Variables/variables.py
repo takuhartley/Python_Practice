@@ -38,3 +38,27 @@ x = "You're "
 y = "the best."
 print(x + y)
 
+z = x + y
+print(z)
+
+"""
+You cannot add together two variables
+which are two different type
+"""
+
+# Global variables
+
+x = "DJ KHALID"
+
+def DJKHALID():
+  print("I'm " + x)
+
+DJKHALID()
+
+"""
+If you create a variable with the same name inside a function, 
+this variable will be local, 
+and can only be used inside the function.
+The global variable with the same name will remain as it was, 
+global and with the original value.
+"""

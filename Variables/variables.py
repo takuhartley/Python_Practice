@@ -62,3 +62,10 @@ and can only be used inside the function.
 The global variable with the same name will remain as it was, 
 global and with the original value.
 """
+
+x = "YOUNG MULA BABY"
+def RapperSounds():
+  x = "YEAH"
+  print(x)
+RapperSounds()
+print(x)

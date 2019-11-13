@@ -26,3 +26,9 @@ print(a)
 print(b)
 print(c)
 print(d)
+
+# Can assign multiple variables in one line
+a = b = c = "Fam"
+print(a)
+print(b)
+print(c)

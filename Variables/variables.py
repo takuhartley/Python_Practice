@@ -32,3 +32,9 @@ a = b = c = "Fam"
 print(a)
 print(b)
 print(c)
+
+# Outputting variables
+x = "You're "
+y = "the best."
+print(x + y)
+

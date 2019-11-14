@@ -90,10 +90,10 @@ print("Python is " + x)
 
 y = "awesome"
 
-def myfunc():
+def myfunction():
   global a
   a = "fantastic"
 
-myfunc()
+myfunction()
 
 print("Python is " + x)

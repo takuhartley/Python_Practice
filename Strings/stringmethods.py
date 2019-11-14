@@ -33,3 +33,6 @@ print(x)
 txt = "H\te\tl\tl\to"
 x =  txt.expandtabs(2)
 print(x)
+print(txt.expandtabs(2))
+print(txt.expandtabs(4))
+print(txt.expandtabs(10))

@@ -9,3 +9,7 @@ print(x)
 txt = "banana"
 x = txt.center(20)
 print(x)
+
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple")
+print(x)

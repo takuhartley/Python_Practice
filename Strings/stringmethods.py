@@ -108,3 +108,29 @@ a = "\u0030" #unicode for 0
 b = "\u00B2" #unicode for ²
 print(a.isdigit())
 print(b.isdigit())
+
+# Check if the string is a valid identifier
+txt = "Demo"
+x = txt.isidentifier()
+print(x)
+
+a = "MyFolder"
+b = "Demo002"
+c = "2bring"
+d = "my demo"
+print(a.isidentifier())
+print(b.isidentifier())
+print(c.isidentifier())
+print(d.isidentifier())
+
+# Check if all the characters in the text are in lower case
+txt = "hello world!"
+x = txt.islower()
+print(x)
+
+a = "Hello world!"
+b = "hello 123"
+c = "mynameisPeter"
+print(a.islower())
+print(b.islower())
+print(c.islower())

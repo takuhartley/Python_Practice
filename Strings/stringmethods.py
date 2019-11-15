@@ -79,3 +79,17 @@ print(x)
 txt = "Company 12"
 x = txt.isalnum()
 print(x)
+
+# Checks to see if all the characters in variable are alphabet letters
+txt = "CompanyX" # True
+x = txt.isalpha()
+print(x)
+
+txt = "Company10" # False
+x = txt.isalpha()
+print(x)
+
+# Check if all the characters in the unicode object are decimals
+txt = "\u0033" #unicode for 3
+x = txt.isdecimal()
+print(x)

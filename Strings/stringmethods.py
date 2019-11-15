@@ -49,9 +49,16 @@ txt = "Hello, welcome to my world."
 x = txt.find("e", 5, 10)
 print(x)
 
-txt = "Hello, welcome to my world."
-print(txt.find("q"))
-print(txt.index("q"))
-
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49))
+
+txt1 = "My name is {fname}, I'am {age}".format(fname = "Robert", age = 22)
+txt2 = "My name is {0}, I'am {1}".format("Robert",22)
+txt3 = "My name is {}, I'am {}".format("Robert",22)
+print(txt1)
+print(txt2)
+print(txt3)
+
+point = {'x':4,'y':-5}
+print('{x} {y}'.format(**point))
+

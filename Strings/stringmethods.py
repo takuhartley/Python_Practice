@@ -62,3 +62,20 @@ print(txt3)
 point = {'x':4,'y':-5}
 print('{x} {y}'.format(**point))
 
+txt = "Hello, welcome to my world."
+x = txt.index("welcome")
+print(x)
+
+x = txt.index("e")
+print(x)
+
+x = txt.index("e", 5, 10)
+print(x)
+
+txt = "Company12"
+x = txt.isalnum()
+print(x)
+
+txt = "Company 12"
+x = txt.isalnum()
+print(x)

@@ -93,3 +93,18 @@ print(x)
 txt = "\u0033" #unicode for 3
 x = txt.isdecimal()
 print(x)
+
+a = "\u0030" #unicode for 0
+b = "\u0047" #unicode for G
+print(a.isdecimal())
+print(b.isdecimal())
+
+# Check if all the characters in the text are digits
+txt = "50800"
+x = txt.isdigit()
+print(x)
+
+a = "\u0030" #unicode for 0
+b = "\u00B2" #unicode for ²
+print(a.isdigit())
+print(b.isdigit())

@@ -235,3 +235,11 @@ print(x)
 txt = "Thank you for the music\nWelcome to the jungle"
 x = txt.splitlines(True)
 print(x)
+
+txt = "Hello, welcome to my world."
+x = txt.startswith("Hello")
+print(x)
+
+txt = "Hello, welcome to my world."
+x = txt.startswith("wel", 7, 20)
+print(x)

@@ -243,3 +243,15 @@ print(x)
 txt = "Hello, welcome to my world."
 x = txt.startswith("wel", 7, 20)
 print(x)
+
+txt = "     banana     "
+x = txt.strip()
+print("of all fruits", x, "is my favorite")
+
+txt = "     banana     "
+x = txt.strip()
+print("of all fruits", x, "is my favorite")
+
+txt = "Hello My Name Is PETER"
+x = txt.swapcase()
+print(x)

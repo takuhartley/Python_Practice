@@ -191,3 +191,6 @@ txt = "Hello, welcome to my world."
 x = txt.rindex("e", 5, 10)
 print(x)
 
+txt = "banana"
+x = txt.rjust(20, "O")
+print(x)

@@ -134,3 +134,31 @@ c = "mynameisPeter"
 print(a.islower())
 print(b.islower())
 print(c.islower())
+
+txt = "     banana     "
+x = txt.lstrip()
+print("of all fruits", x, "is my favorite")
+
+txt = ",,,,,ssaaww.....banana"
+x = txt.lstrip(",.asw")
+print(x)
+
+dict = {"a": "123", "b": "456", "c": "789"}
+string = "abc"
+print(string.maketrans(dict))
+
+dict = {97: "123", 98: "456", 99: "789"}
+string = "abc"
+print(string.maketrans(dict))
+
+txt = "I could eat bananas all day"
+x = txt.partition("bananas")
+print(x)
+
+txt = "I could eat bananas all day"
+x = txt.partition("apples")
+print(x)
+
+txt = "I like bananas"
+x = txt.replace("bananas", "apples")
+print(x)

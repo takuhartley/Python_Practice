@@ -263,3 +263,12 @@ print(x)
 txt = "Welcome to my 2nd world"
 x = txt.title()
 print(x)
+
+firstString = "abc"
+secondString = "ghi"
+thirdString = "ab"
+string = "abcdef"
+print("Original string:", string)
+translation = string.maketrans(firstString, secondString, thirdString)
+# translate string
+print("Translated string:", string.translate(translation))

@@ -210,3 +210,11 @@ print("of all fruits", x, "is my favorite")
 txt = "banana,,,,,ssaaww....."
 x = txt.rstrip(",.asw")
 print(x)
+
+txt = "welcome to the jungle"
+x = txt.split()
+print(x)
+
+txt = "hello, my name is Peter, I am 26 years old"
+x = txt.split(", ")
+print(x)

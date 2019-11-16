@@ -1,19 +1,24 @@
+# capitalize()
 txt = "hello, and welcome to my world."
 x = txt.capitalize()
 print (x)
 
+# casefold()
 txt = "Hello, And Welcome To My World!"
 x = txt.casefold()
 print(x)
 
+# center()
 txt = "banana"
 x = txt.center(20)
 print(x)
 
+# count()
 txt = "I love apples, apple are my favorite fruit"
 x = txt.count("apple")
 print(x)
 
+# encode()
 txt = "My name is Ståle"
 print(txt.encode)
 print(txt.encode(encoding="ascii",errors="backslashreplace"))
@@ -272,3 +277,27 @@ print("Original string:", string)
 translation = string.maketrans(firstString, secondString, thirdString)
 # translate string
 print("Translated string:", string.translate(translation))
+
+# translation table - a dictionary
+translation = {97: None, 98: None, 99: 105}
+
+string = "abcdef"
+print("Original string:", string)
+
+# translate string
+print("Translated string:", string.translate(translation))
+
+txt = "Hello my friends"
+x = txt.upper()
+print(x)
+
+txt = "50"
+x = txt.zfill(10)
+print(x)
+
+a = "hello"
+b = "welcome to the jungle"
+c = "10.000"
+print(a.zfill(10))
+print(b.zfill(10))
+print(c.zfill(10))

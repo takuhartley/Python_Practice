@@ -202,3 +202,11 @@ print(x)
 txt = "I could eat bananas all day, bananas are my favorite fruit"
 x = txt.rpartition("apples")
 print(x)
+
+txt = "     banana     "
+x = txt.rstrip()
+print("of all fruits", x, "is my favorite")
+
+txt = "banana,,,,,ssaaww....."
+x = txt.rstrip(",.asw")
+print(x)

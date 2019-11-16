@@ -255,3 +255,11 @@ print("of all fruits", x, "is my favorite")
 txt = "Hello My Name Is PETER"
 x = txt.swapcase()
 print(x)
+
+txt = "Welcome to my world"
+x = txt.title()
+print(x)
+
+txt = "Welcome to my 2nd world"
+x = txt.title()
+print(x)

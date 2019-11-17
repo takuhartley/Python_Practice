@@ -36,3 +36,6 @@ class myclass():
 
 myobj = myclass()
 print(bool(myobj))
+
+x = 200
+print(isinstance(x, int))

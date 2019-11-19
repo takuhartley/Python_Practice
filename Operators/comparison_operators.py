@@ -4,3 +4,6 @@ z = x == y
 a = x != y
 print(z)
 print(a)
+
+b = x > y
+print(b)

@@ -8,5 +8,29 @@ print(a)
 b = x > y
 print(b)
 
+b = x >= y
+print(b)
+
 c = x < y
 print(c)
+
+c = x <= y
+print(c)
+
+# Logical Operators
+x = 5
+print(x > 3 and x < 10)
+
+x = 5
+print(x > 3 or x < 4)
+
+x = 5
+print(not(x > 3 and x < 10))
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)
+print(x is y)
+print(x == y)

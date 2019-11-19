@@ -7,3 +7,6 @@ print(a)
 
 b = x > y
 print(b)
+
+c = x < y
+print(c)

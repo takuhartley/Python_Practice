@@ -40,3 +40,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(1, "orange")
 print(thislist)
+
+# Remove item
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)

@@ -17,3 +17,7 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
+# Looping through a list
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)

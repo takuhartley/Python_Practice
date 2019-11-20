@@ -30,3 +30,8 @@ if "apple" in thislist:
 # List length
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
+
+# Adding items to list
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)

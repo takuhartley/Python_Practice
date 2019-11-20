@@ -35,3 +35,8 @@ print(len(thislist))
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 print(thislist)
+
+# To add to a specific index use the insert() method
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)

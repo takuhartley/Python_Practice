@@ -92,3 +92,7 @@ list2 = [1, 2, 3]
 
 list1.extend(list2)
 print(list1)
+
+# The list contructor
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)

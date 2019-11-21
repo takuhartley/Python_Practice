@@ -60,3 +60,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
+
+# Using copy()
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)

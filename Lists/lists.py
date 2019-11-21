@@ -65,3 +65,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print(mylist)
+
+# Using list()
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+print(mylist)

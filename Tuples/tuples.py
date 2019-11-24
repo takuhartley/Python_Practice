@@ -19,3 +19,7 @@ y[1] = "kiwi"
 x = tuple(y)
 
 print(x)
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)

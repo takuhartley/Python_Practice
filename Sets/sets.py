@@ -20,3 +20,7 @@ print(a)
 
 # Length of set using len()
 print(len(a))
+
+# Remove()
+a.remove("Obi")
+print(a)

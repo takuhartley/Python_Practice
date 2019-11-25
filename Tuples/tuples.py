@@ -50,3 +50,7 @@ tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2
 print(tuple3)
+
+# tuple constructor
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)

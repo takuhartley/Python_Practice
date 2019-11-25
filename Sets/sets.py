@@ -33,3 +33,7 @@ print(a)
 c = a.pop()
 print(c)
 print(c)
+
+# clear()
+a.clear()
+print(a)

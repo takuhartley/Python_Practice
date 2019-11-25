@@ -21,6 +21,10 @@ print(a)
 # Length of set using len()
 print(len(a))
 
-# Remove()
+# remove()
 a.remove("Obi")
+print(a)
+
+# discard()
+a.discard("Yuni")
 print(a)

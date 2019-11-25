@@ -38,3 +38,8 @@ print(type(thistuple))
 #NOT a tuple
 thistuple = ("apple")
 print(type(thistuple))
+
+# Delete tuple
+# thistuple = ("apple", "banana", "cherry")
+# del thistuple
+# print(thistuple)

@@ -18,3 +18,5 @@ print(a)
 a.update(["Yumi", "Yuni", "Obi"])
 print(a)
 
+# Length of set using len()
+print(len(a))

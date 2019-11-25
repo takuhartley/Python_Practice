@@ -37,3 +37,9 @@ print(c)
 # clear()
 a.clear()
 print(a)
+
+a = {"Cameron", "Robert", "Alex", "Clifford"}
+
+# del
+del a
+print(a)

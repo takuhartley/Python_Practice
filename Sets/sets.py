@@ -28,3 +28,8 @@ print(a)
 # discard()
 a.discard("Yuni")
 print(a)
+
+# pop()
+c = a.pop()
+print(c)
+print(c)

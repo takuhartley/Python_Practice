@@ -10,3 +10,6 @@ for b in a:
 # Check to see if certain item is in set
 print("Robert" in a) # Returns true
 
+# Adding item to set
+a.add("Mark")
+print(a)

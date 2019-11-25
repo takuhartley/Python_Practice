@@ -13,3 +13,8 @@ print("Robert" in a) # Returns true
 # Adding item to set
 a.add("Mark")
 print(a)
+
+# Updating set using update()
+a.update(["Yumi", "Yuni", "Obi"])
+print(a)
+

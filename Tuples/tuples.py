@@ -30,3 +30,11 @@ if "apple" in thistuple:
 
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
+
+# To create a tuple with only one item, you have add a comma after the item, unless Python will not recognize the variable as a tuple.
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))

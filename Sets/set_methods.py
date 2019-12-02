@@ -30,3 +30,9 @@ y = {"google", "microsoft", "apple"}
 x.difference_update(y)
 
 print(x)
+
+fruits = {"apple", "banana", "cherry"}
+
+fruits.discard("banana")
+
+print(fruits)

@@ -57,3 +57,7 @@ print(z)
 fruits = {"apple", "banana", "cherry"}
 fruits.pop()
 print(fruits)
+
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
+print(fruits)

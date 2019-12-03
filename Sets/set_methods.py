@@ -61,3 +61,8 @@ print(fruits)
 fruits = {"apple", "banana", "cherry"}
 fruits.remove("banana")
 print(fruits)
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.symmetric_difference(y)
+print(z)

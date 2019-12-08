@@ -76,3 +76,13 @@ car = {
 x = car.setdefault("model", "Bronco")
 
 print(x)
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.update({"color": "White"})
+
+print(car)

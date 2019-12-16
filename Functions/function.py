@@ -63,6 +63,29 @@ function_six(child1="Naruto", child2="Sasuke", child3="Sakura")
 
 
 def function_seven(*kids):
-  print("The youngest child is " + kids[2])
+    print("The youngest child is " + kids[2])
+
 
 function_seven("Cameron", "Alex", "Clifford")
+
+# Pass Statement
+
+
+def function_eight():
+    pass
+
+# Recursion
+
+
+def function_nine(k):
+    if(k > 0):
+        result = k+function_nine(k-1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+
+print("\n\nRecursion Example Results")
+function_nine(6)
+

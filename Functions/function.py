@@ -58,3 +58,11 @@ def function_six(child3, child2, child1):
 
 
 function_six(child1="Naruto", child2="Sasuke", child3="Sakura")
+
+# Arbitrary Arguments
+
+
+def function_seven(*kids):
+  print("The youngest child is " + kids[2])
+
+function_seven("Cameron", "Alex", "Clifford")

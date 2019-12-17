@@ -17,3 +17,4 @@ for x in cars:
   print(x)
 
 cars.append("Tesla")
+cars.pop(1)

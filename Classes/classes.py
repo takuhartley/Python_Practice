@@ -9,6 +9,11 @@ class Person:
     def PersonAgeIntroduction(self):
         print("My age is " + str(self.age))
 
+
 p1 = Person("Robert", 22)
 p1.PersonIntroduction()
 p1.PersonAgeIntroduction()
+
+
+class Avocado:
+    pass

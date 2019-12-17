@@ -19,3 +19,4 @@ for x in cars:
 cars.append("Tesla")
 cars.pop(1)
 cars.remove("Honda")
+cars.clear()

@@ -15,5 +15,5 @@ p1.PersonIntroduction()
 p1.PersonAgeIntroduction()
 
 
-class Avocado:
+class Student(Person):
     pass

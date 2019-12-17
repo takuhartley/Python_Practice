@@ -1,3 +1,13 @@
-import mymodule
+import mymodule as mx
+import platform
 
-mymodule.greeting("Robert")
+x = platform.system()
+print(x)
+
+x = dir(platform)
+print(x)
+
+mx.greeting("Robert")
+
+a = mx.person1["age"]
+print(a)

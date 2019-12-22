@@ -47,3 +47,8 @@ import numpy
 speed = [86,87,88,86,87,85,86]
 x = numpy.std(speed)
 print(x)
+
+# Variance
+# Another number that indicates how spread out the values are.
+# In fact, if you take the square root of the variance, you get the standard variation!
+# Or the other way around, if you multiply the standard deviation by itself, you get the variance!

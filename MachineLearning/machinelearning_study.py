@@ -38,3 +38,8 @@ from scipy import stats
 speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 x = stats.mode(speed)
 print(x)
+
+# Standard Deviation
+# Number that describes how spread out the values are.
+# A low standard deviation means that most of the numbers are close to the mean (average) value.
+# A high standard deviation means that the values are spread out over a wider range.

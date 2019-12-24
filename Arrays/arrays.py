@@ -1,15 +1,15 @@
-cars = ["Honda", "Subaru", "Toyota", "Nissan"]
+people = ["Cameron", "Robert", "Alex", "Clifford"]
 
-a = cars[0]
-b = cars[1]
-c = cars[2]
-d = cars[3]
+a = people[0]
+b = people[1]
+c = people[2]
+d = people[3]
 
-print(cars)
+print(people)
 print(a)
 print(b)
 print(c)
 print(d)
 
-for x in cars:
+for x in people:
     print(x)

@@ -1,4 +1,4 @@
-people = ["Cameron", "Robert", "Alex", "Clifford"]
+ç
 
 a = people[0]
 b = people[1]

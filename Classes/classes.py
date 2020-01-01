@@ -19,7 +19,6 @@ p1.PersonAgeIntroduction()
 class Student(Person):
     pass
 
+
 x = Student("Cameron", "Hartley", 24)
 x.PersonIntroduction()
-
-

@@ -78,6 +78,6 @@ list1.extend(list2)
 print(list1)
 
 # The list contructor
-# note the double round-brackets
+# You need the double brackets
 thislist = list(("Mark", "Yumi", "Cameron", "Robert", "Alexander", "Clifford", "Obi"))
 print(thislist)

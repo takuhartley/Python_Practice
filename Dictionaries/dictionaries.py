@@ -1,37 +1,39 @@
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+cars = {
+  "brand": "Tesla",
+  "model": "Model X",
+  "year": 2019
 }
-print(thisdict)
 
-x = thisdict["model"]
+print(cars)
+
+x = cars["model"]
 print(x)
 
-x = thisdict.get("model")
+x = cars.get("model")
 print(x)
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+people = {
+  "name": "Robert",
+  "age": 22,
+  "gender": "Male"
 }
-thisdict["year"] = 2018
-print(thisdict)
 
-for x in thisdict:
+people["year"] = 2018
+print(people)
+
+for x in people:
   print(x)
 
-for x in thisdict:
-  print(thisdict[x])
+for x in people:
+  print(people[x])
 
-for x in thisdict.values():
+for x in people.values():
   print(x)
 
-for x, y in thisdict.items():
+for x, y in people.items():
   print(x, y)
 
-thisdict = {
+people = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964

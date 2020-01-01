@@ -18,5 +18,4 @@ print(next(myit))
 print(next(myit))
 
 for x in mystr:
-  print(x)
-
+    print(x)

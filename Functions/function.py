@@ -7,19 +7,19 @@ def function_one():
 
 function_one()
 
-
 # Parameters
 
+
 def function_two(fname):
-    print(fname + " Harltey")
+    print(fname + " Hartley")
 
 
 function_two("Cameron")
 function_two("Alex")
 function_two("Robert")
 
-
 # Default Parameter Values
+
 
 def function_three(country="Japan"):
     print("I am from " + country)
@@ -27,15 +27,15 @@ def function_three(country="Japan"):
 
 function_three()
 
-
 # Passing a List as a Parameter
+
 
 def function_four(food):
     for x in food:
         print(x)
 
 
-fruits = ["Apple", "Orange", "Strawberry"]
+fruits = ["Apple", "Orange", "Bananas"]
 
 function_four(fruits)
 
@@ -88,4 +88,3 @@ def function_nine(k):
 
 print("\n\nRecursion Example Results")
 function_nine(6)
-

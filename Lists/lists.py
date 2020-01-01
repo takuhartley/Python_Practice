@@ -32,29 +32,27 @@ theList.remove("Cameron")
 print(theList)
 
 # Using pop()
-thislist = ["apple", "strawberry", "banana"]
-thislist.pop()
-print(thislist)
+theList.pop()
+print(theList)
 
 # Using del
-thislist = ["apple", "strawberry", "banana"]
-del thislist[0]
-print(thislist)
+del theList[0]
+print(theList)
+
+theList = ["Mark", "Yumi", "Cameron", "Robert", "Alexander", "Clifford", "Obi"]
 
 # Using clear()
-thislist = ["apple", "strawberry", "banana"]
-thislist.clear()
-print(thislist)
+theList.clear()
+print(theList)
 
 # Using copy()
-thislist = ["apple", "strawberry", "banana"]
-mylist = thislist.copy()
-print(mylist)
+theList = ["Mark", "Yumi", "Cameron", "Robert", "Alexander", "Clifford", "Obi"]
+newList = theList.copy()
+print(newList)
 
 # Using list()
-thislist = ["apple", "strawberry", "banana"]
-mylist = list(thislist)
-print(mylist)
+myList = list(theList)
+print(theList)
 
 # Joing two list()
 list1 = ["a", "b", "c"]
@@ -63,6 +61,7 @@ list2 = [1, 2, 3]
 list3 = list1 + list2
 print(list3)
 
+# Combining two lists using for loops
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]
 
@@ -80,5 +79,5 @@ print(list1)
 
 # The list contructor
 # note the double round-brackets
-thislist = list(("apple", "banana", "cherry"))
+thislist = list(("Mark", "Yumi", "Cameron", "Robert", "Alexander", "Clifford", "Obi"))
 print(thislist)

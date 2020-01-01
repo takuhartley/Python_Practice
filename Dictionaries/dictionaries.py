@@ -4,6 +4,11 @@ cars = {
   "year": 2019
 }
 
+people = {
+  "name": "Robert",
+  "age": 22,
+  "gender": "Male"
+}
 print(cars)
 
 x = cars["model"]
@@ -12,13 +17,7 @@ print(x)
 x = cars.get("model")
 print(x)
 
-people = {
-  "name": "Robert",
-  "age": 22,
-  "gender": "Male"
-}
-
-people["year"] = 2018
+people["age"] = 1995
 print(people)
 
 for x in people:
@@ -33,68 +32,25 @@ for x in people.values():
 for x, y in people.items():
   print(x, y)
 
-people = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-if "model" in thisdict:
-  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+if "model" in cars:
+  print("Yes, 'model' is one of the keys in the people dictionary")
 
-print(len(thisdict))
+print(len(people))
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-thisdict["color"] = "red"
-print(thisdict)
+people["name"] = "Alex"
+print(people)
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-thisdict.pop("model")
-print(thisdict)
+cars.pop("model")
+print(cars)
 
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+cars.popitem()
+print(cars)
 
-car.popitem()
-
-print(car)
-
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-
-x = car.setdefault("model", "Bronco")
-
+x = cars.setdefault("model", "Bronco")
 print(x)
 
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+cars.update({"color": "White"})
+print(cars)
 
-car.update({"color": "White"})
-
-print(car)
-
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-
-x = car.values()
-
+x = cars.values()
 print(x)

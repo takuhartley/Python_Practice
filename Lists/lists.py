@@ -1,50 +1,35 @@
-thislist = ["apple", "strawberry", "banana"]
-print(thislist)
+theList = ["Mark", "Yumi", "Cameron", "Robert", "Alexander", "Clifford", "Obi"]
+print(theList)
+print(theList[1])
+print(theList[-1])
+print(theList[2:5])
+print(theList[-4:-1])
 
-thislist = ["apple", "strawberry", "banana"]
-print(thislist[1])
-
-thislist = ["apple", "strawberry", "banana"]
-print(thislist[-1])
-
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:5])
-
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[-4:-1])
-
-thislist = ["apple", "strawberry", "banana"]
-thislist[1] = "blackcurrant"
-print(thislist)
+theList[1] = "Obi"
+print(theList)
 
 # Looping through a list
-thislist = ["apple", "strawberry", "banana"]
-for x in thislist:
+for x in theList:
     print(x)
 
 # Check if item exists
-thislist = ["apple", "strawberry", "banana"]
-if "apple" in thislist:
-    print("Yes, 'apple' is in the fruits list")
+if "Robert" in theList:
+    print("Yes, 'Robert' is in the list.")
 
 # List length
-thislist = ["apple", "strawberry", "banana"]
-print(len(thislist))
+print(len(theList))
 
 # Adding items to list
-thislist = ["apple", "strawberry", "banana"]
-thislist.append("orange")
-print(thislist)
+theList.append("John")
+print(theList)
 
 # To add to a specific index use the insert() method
-thislist = ["apple", "strawberry", "banana"]
-thislist.insert(1, "orange")
-print(thislist)
+theList.insert(1, "Bitch")
+print(theList)
 
 # Remove item
-thislist = ["apple", "strawberry", "banana"]
-thislist.remove("banana")
-print(thislist)
+theList.remove("Cameron")
+print(theList)
 
 # Using pop()
 thislist = ["apple", "strawberry", "banana"]

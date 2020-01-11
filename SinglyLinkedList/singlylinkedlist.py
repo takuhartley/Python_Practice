@@ -6,3 +6,8 @@ class Node:
 
 first = Node(3)
 print(first.data)
+
+
+class LinkedList:
+    def __init__(self):
+        self.head = None

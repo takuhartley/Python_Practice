@@ -22,6 +22,20 @@ class doubly_linked_list:
             last = node
             node = node.next
 
+    def append(self, NewVal):
+        NewNode = Node(NewVal)
+        NewNode.next = None
+        if self.head is None:
+            NewNode.prev = None
+            self.head = NewNode
+            return
+        last = self.head
+        while (last.next is not None):
+            last = last.next
+        last.next = NewNode
+        NewNode.prev = last
+        return
+
     def insert(self, prev_node, NewVal):
         if prev_node is None:
             return
@@ -33,10 +47,10 @@ class doubly_linked_list:
             NewNode.next.prev = NewNode
 
 
-
 dllist = doubly_linked_list()
 dllist.push(12)
+dllist.append(9)
 dllist.push(8)
 dllist.push(62)
-dllist.insert(dllist.head.next, 13)
+dllist.append(45)
 dllist.listprint(dllist.head)

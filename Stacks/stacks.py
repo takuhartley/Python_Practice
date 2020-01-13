@@ -9,6 +9,12 @@ class Stack:
         else:
             return False
 
+    def remove(self):
+        if len(self.stack) <= 0:
+            return ("No element in the Stack")
+        else:
+            return self.stack.pop()
+    
     def peek(self):
         return self.stack[-1]
 
@@ -16,8 +22,7 @@ class Stack:
 AStack = Stack()
 AStack.add("Mon")
 AStack.add("Tue")
-AStack.peek()
-print(AStack.peek())
 AStack.add("Wed")
 AStack.add("Thu")
-print(AStack.peek())
+print(AStack.remove())
+print(AStack.remove())

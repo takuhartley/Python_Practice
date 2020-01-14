@@ -14,7 +14,7 @@ class Stack:
             return ("Nothing in the Stack")
         else:
             return self.stack.pop()
-    
+
     def peek(self):
         return self.stack[-1]
 

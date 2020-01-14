@@ -3,10 +3,10 @@ class Queue:
     def __init__(self):
         self.queue = list()
 
-    def addtoq(self, dataval):
-        if dataval not in self.queue:
-            self.queue.insert(0, dataval)
-            return True
+    def add_to_q(self, data_val):
+        if data_val not in self.queue:
+            self.queue.insert(0, data_val)
+            return (True, "IT'S RIGHT")
         return False
 
     def size(self):
@@ -19,8 +19,9 @@ class Queue:
 
 
 TheQueue = Queue()
-TheQueue.addtoq("Mon")
-TheQueue.addtoq("Tue")
-TheQueue.addtoq("Wed")
+TheQueue.add_to_q("Mon")
+TheQueue.add_to_q("Tue")
+TheQueue.add_to_q("Wed")
+print(TheQueue.queue)
 print(TheQueue.removefromq())
 print(TheQueue.removefromq())

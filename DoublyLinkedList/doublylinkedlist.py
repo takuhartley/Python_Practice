@@ -18,7 +18,7 @@ class doubly_linked_list:
 
     def listprint(self, node):
         while (node is not None):
-            print(node.data),
+            print(node.data)
             last = node
             node = node.next
 

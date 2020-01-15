@@ -28,8 +28,11 @@ class Hero:
         self.mortal = True
         self.health = h
 
+    def whatsmyname(self):
+        print("My name is " + self.name)
+
 h1 = Hero("Elon", 75, "Super Strength", 100)
-print(h1.name)
+h1.whatsmyname()
 print(h1.strength)
 print(h1.abilities)
 print(h1.mortal)

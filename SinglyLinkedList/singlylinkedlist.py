@@ -1,35 +1,60 @@
 class Node:
-    def __init__(self, data, next=None):
+    def __init__(self, data=None, nextNode=None):
         self.data = data
-        self.next = next
+        self.nextNode = nextNode
+
+    def getData(self):
+        return self.data
+
+    def getNext(self):
+        return self.nextNode
+
+    def setNext(self, newNext):
+        self.nextNode = newNext
 
 
 first = Node(3)
 print(first.data)
 
 
-class LinkedList:
-    def __init__(self):
-        self.head = None
-
+class SinglyLinkedList:
+    def __init__(self, head=None):
+        self.head = head
 
     def insert(self, data):
-        newNode = Node(data)
-        if(self.head):
-            current = self.head
-            while(current.next):
-                current = current.next
-            current.next = newNode
-        else:
-            self.head = newNode
+    newNode = Node(data)
+    newNode.set_next(self.head)
+    self.head = new_node
 
-    def printLL(self):
+    def printSLL(self):
         current = self.head
         while(current):
             print(current.data)
             current = current.next
 
-LL = LinkedList()
+    def search(self, data):
+        if(self.head == None):
+            print("No Data in Linked List")
+
+    def delete(self, data):
+        current = self.head
+        previous = None
+        found = False
+    while current and found is False:
+        if current.getData == data:
+            found = True
+        else:
+            previous = current
+            current = current.get_next()
+    if current is None:
+        raise ValueError("Data not in list")
+    if previous is None:
+        self.head = current.get_next()
+    else:
+        previous.set_next(current.get_next())
+
+
+LL = SinglyLinkedList()
 LL.insert(3)
 LL.insert(4)
 LL.insert(5)
